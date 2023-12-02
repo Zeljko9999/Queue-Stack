@@ -1,0 +1,20 @@
+
+NET "data_in[0]" LOC = "L13" | IOSTANDARD = LVTTL | PULLUP ;
+NET "data_in[1]" LOC = "L14" | IOSTANDARD = LVTTL | PULLUP ;
+NET "data_in[2]" LOC = "H18" | IOSTANDARD = LVTTL | PULLUP ;
+NET "data_in[3]" LOC = "N17" | IOSTANDARD = LVTTL | PULLUP ;
+NET "pop" LOC = "H13" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "rst" LOC = "K17" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "push" LOC = "D18" | IOSTANDARD = LVTTL | PULLDOWN ;
+NET "read_more" LOC = "V4" | IOSTANDARD = LVTTL | PULLDOWN ;
+
+NET "clk" LOC = "C9" | IOSTANDARD = LVCMOS33 ;
+
+NET "error" LOC = "F9" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "stack_threshold" LOC = "E9" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "stack_empty" LOC = "D11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "stack_full" LOC = "C11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+//NET "data_out[3]" LOC = "F11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "data_out[2]" LOC = "E11" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "data_out[1]" LOC = "E12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
+NET "data_out[0]" LOC = "F12" | IOSTANDARD = LVTTL | SLEW = SLOW | DRIVE = 8 ;
